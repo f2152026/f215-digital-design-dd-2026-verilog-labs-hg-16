@@ -18,7 +18,7 @@ module cla64_flat(
   // ---------------------------------------------------------------------
   // Step 1: generate/propagate signals -- WORKED EXAMPLE
   //
-  // This part is genuinely uniform across all 64 bits (same operation at
+  // This part is g m across all 64 bits (same operation at
   // every position), so a generate-for loop is the right tool here.
   // `genvar` is a compile-time-only loop variable -- it does not exist as
   // a real signal in the final circuit, it just controls how many times
